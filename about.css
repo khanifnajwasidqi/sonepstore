@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero-about {
+  height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url(gambar.img/bacgroonnn.jfif);
+  background-size: cover;
+  background-position: center;
+  
+}
+.hero-about h1{ color: #ffffff;
+}
+/* About Section */
+.about h2 {
+  font-family: 'Playfair Display', serif;
+}

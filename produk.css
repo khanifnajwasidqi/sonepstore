@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero-menu {
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url(gambar.img/songkok\ peci.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+ 
+/* Card hover effect */
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.btn-wa{
+    display:inline-block;
+    background: linear-gradient(135deg,#25D366,#128C7E);
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s ease;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-wa:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg,#128C7E,#25D366);
+}
+
+.btn-wa:active{
+    transform:scale(0.95);
+}

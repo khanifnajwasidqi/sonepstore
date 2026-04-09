@@ -1,0 +1,13 @@
+.btn-beli{
+  background:#d4af37;
+  color:#000;
+  padding:12px 25px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn-beli:hover{
+  background:#b8962e;
+}

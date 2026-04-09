@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id"> 
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produk - SONEPSTORE</title> 
+<!-- Bootstrap 5 --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+<!-- Google Font --> <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet"> 
+<!-- CSS --> <link rel="stylesheet" href="produk.css"> 
+</head> 
+<body>
+<!-- NAVBAR --> <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow"> 
+<div class="container"> 
+<a class="navbar-brand" href="index.html">SONEPSTORE</a> 
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"> 
+<span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="menu"> 
+<ul class="navbar-nav ms-auto"> 
+<li class="nav-item">
+<a class="nav-link" href="index.html">Beranda</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">Tentang</a>
+</li> <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li> </ul> 
+ </div> </div> </nav>
+  <style>
+    body { font-family: Arial; }
+    .hero {
+      background: #222;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="hero">
+  <h1>SONEPSTORE</h1>
+  <p>Produk Peci Keren 😎</p>
+</div>
+
+<!-- PRODUK -->
+<div class="container py-5">
+  <div class="row g-4">
+
+    <!-- PRODUK 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/peci hitam.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Hitam</h5>
+          <p>Rp35.000</p>
+
+          <select id="ukuran1" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Hitam',35000,'ukuran1')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/peci putih.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Putih</h5>
+          <p>Rp35.000</p>
+
+          <select id="ukuran2" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Putih',35000,'ukuran2')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/peci motif.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Motif</h5>
+          <p>Rp60.000</p>
+
+          <select id="ukuran3" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Motif',60000,'ukuran3')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+     <!-- PRODUK 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/songkok peci.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Songkok Peci</h5>
+          <p>Rp55.000</p>
+
+          <select id="ukuran4" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Songkok Peci',55000,'ukuran4')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/Peci Rajut.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Rajut Putih</h5>
+          <p>Rp20.000</p>
+
+          <select id="ukuran5" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Rajut Putih',20000,'ukuran5')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/rajut hitam.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Rajut Hitam</h5>
+          <p>Rp20.000</p>
+
+          <select id="ukuran6" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Rajut Hitam',20000,'ukuran6')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+  <!-- PRODUK 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/rajut biru.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Rajut Biru</h5>
+          <p>Rp15.000</p>
+
+          <select id="ukuran7" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Songkok Peci',15000,'ukuran7')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/rajut merah.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Rajut Merah</h5>
+          <p>Rp15.000</p>
+
+          <select id="ukuran8" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Rajut Putih',15000,'ukuran8')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gambar.img/de74ce492e06fe6c68eafe90866b4078.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Peci Special</h5>
+          <p>Rp75.000</p>
+
+          <select id="ukuran9" class="form-select mb-2">
+            <option value="">Pilih Ukuran</option>
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option>
+          </select>
+
+          <button onclick="tambahKeranjang('Peci Rajut Putih',75000,'ukuran9')" 
+            class="btn btn-primary">
+            Tambah Keranjang
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- KERANJANG -->
+<div class="container">
+  <h3>Keranjang</h3>
+  <ul id="keranjang" class="list-group mb-3"></ul>
+  <h5>Total: Rp <span id="total">0</span></h5>
+
+  <button onclick="checkoutWA()" class="btn btn-success">
+    Pesan via WhatsApp
+  </button>
+</div>
+
+<!-- JAVASCRIPT -->
+<script>
+let keranjang = [];
+
+function tambahKeranjang(nama, harga, idSelect) {
+  let ukuran = document.getElementById(idSelect).value;
+
+  if (ukuran === "") {
+    alert("Pilih ukuran dulu!");
+    return;
+  }
+
+  keranjang.push({
+    nama: nama,
+    harga: harga,
+    ukuran: ukuran
+  });
+
+  tampilKeranjang();
+}
+
+function tampilKeranjang() {
+  let list = document.getElementById("keranjang");
+  let total = 0;
+
+  list.innerHTML = "";
+
+  keranjang.forEach((item, index) => {
+    total += item.harga;
+
+    list.innerHTML += `
+      <li class="list-group-item d-flex justify-content-between">
+        ${item.nama} (Ukuran: ${item.ukuran})
+        <div>
+          Rp ${item.harga}
+          <button onclick="hapusItem(${index})" class="btn btn-sm btn-danger ms-2">X</button>
+        </div>
+      </li>
+    `;
+  });
+
+  document.getElementById("total").innerText = total;
+}
+
+function hapusItem(index) {
+  keranjang.splice(index, 1);
+  tampilKeranjang();
+}
+
+function checkoutWA() {
+  if (keranjang.length === 0) {
+    alert("Keranjang kosong!");
+    return;
+  }
+
+  let pesan = "Halo, saya ingin memesan:%0A";
+  let total = 0;
+
+  keranjang.forEach(item => {
+    pesan += `- ${item.nama} (Ukuran: ${item.ukuran}) - Rp ${item.harga}%0A`;
+    total += item.harga;
+  });
+
+  pesan += `%0ATotal: Rp ${total}`;
+
+  let url = `https://wa.me/6285229744535?text=${pesan}`;
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>

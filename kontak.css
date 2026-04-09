@@ -1,0 +1,18 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero-contact {
+  height: 50vh;
+  background: linear-gradient(rgba(226, 206, 206, 0.6), rgba(0,0,0,0.6)),
+              url(gambar.img/backgron\ );
+  background-size: cover;
+  background-position: center;
+}
